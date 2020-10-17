@@ -28,7 +28,7 @@ contract  ComputerID{
    }
    
    
-    function SetUserInfo(string memory _Computer_ID, string memory _ISP_Detail,string memory _Firewall_Name,
+    function SetUserInfo1(string memory _Computer_ID, string memory _ISP_Detail,string memory _Firewall_Name,
    string memory _VPN_Name) public {
       // User_ID = _User_ID;
        Computer_ID = _Computer_ID;
